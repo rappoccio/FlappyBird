@@ -26,7 +26,7 @@ const CONFIG = {
   width: 144, height: 256, groundHeight: 16,
   // bird physics (pixels, seconds)
   gravity: 300,          // px/s^2 pulling down (halved from 600 after play-testing, Oct 14)
-  flapImpulse: 170,      // px/s upward speed right after a flap
+  flapImpulse: 120,      // px/s upward speed right after a flap (was 170; flap height halved Oct 14)
   maxFallSpeed: 300,     // terminal velocity, px/s
   maxDt: 1 / 30,         // longest time step we simulate (s)
   minRise: 20,           // a flap must lift the bird at least this many px
